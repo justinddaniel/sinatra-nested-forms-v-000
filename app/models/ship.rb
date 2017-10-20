@@ -19,5 +19,4 @@ class Ship
     SHIPS.clear
   end
 
-
 end
