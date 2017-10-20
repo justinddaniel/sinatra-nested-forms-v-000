@@ -8,7 +8,7 @@ module FormsLab
     end
 
     get '/pirates/new' do
-      erb :new
+      erb :'pirates/new'
     end
 
     post '/pirates/show' do
@@ -20,7 +20,7 @@ module FormsLab
 
       @ships = Ship.all
 
-      erb :show
+      erb :'pirates/show'
     end
 
   end
