@@ -10,13 +10,13 @@ class Pirate
     PIRATES << self
   end
 
-  def self.all 
+  def self.all
     PIRATES
   end
 
   def self.clear
     PIRATES = []
   end
-  
-  
+
+
 end
