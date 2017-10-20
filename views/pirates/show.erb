@@ -6,7 +6,7 @@
   </div><br>
 
 <h2>First Pirate Ship</h2>
-<% @ships.each do |ship| %>
+<% @ships[0] do |ship| %>
   <div class = "ship-one">
     <h3> Ship Name: <%= ship.name %></h3><br>
     <h3> Ship Type: <%= ship.type %></h3><br>
@@ -15,8 +15,8 @@
 <% end %>
 
 <h2>Second Pirate Ship</h2>
-<% @ships.each do |ship| %>
-  <div class = "ship-one">
+<% @ships[1] do |ship| %>
+  <div class = "ship-two">
     <h3> Ship Name: <%= ship.name %></h3><br>
     <h3> Ship Type: <%= ship.type %></h3><br>
     <h3> Ship Booty: <%= ship.booty %></h3><br>
