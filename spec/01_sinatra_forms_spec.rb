@@ -16,7 +16,7 @@ describe "FormsLab::App" do
 
   describe "GET '/pirates/new'" do
     before(:each) do
-      get '/new'
+      get '/pirates/new'
     end
 
     it "returns a 200 status code" do
