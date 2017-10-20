@@ -14,7 +14,7 @@ describe "FormsLab::App" do
     end
   end
 
-  describe "GET '/new'" do
+  describe "GET '/pirates/new'" do
     before(:each) do
       get '/new'
     end
